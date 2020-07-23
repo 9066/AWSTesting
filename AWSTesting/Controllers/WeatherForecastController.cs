@@ -13,7 +13,7 @@ namespace AWSTesting.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching","Ajay","Brajesh"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
