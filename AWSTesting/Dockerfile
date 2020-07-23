@@ -3,7 +3,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM microsoft/dotnet:3.1-sdk AS build 
+FROM microsoft/dotnet:2.2-sdk AS build 
 WORKDIR /src
 COPY ["AWSTesting.csproj", "AWSTesting/"]
 RUN dotnet restore "AWSTesting/AwsService.csproj"
